@@ -1,0 +1,22 @@
+{
+  "id": "K2",
+  "references": [
+    [
+      "A",
+      "fall",
+      "AB-5"
+    ],
+    [
+      "B",
+      "fall",
+      "BX-7"
+    ]
+  ],
+  "field_scope": [
+    "coordinate_link"
+  ],
+  "point_ids": [
+    "A7",
+    "B3"
+  ]
+}

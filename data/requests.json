@@ -1,0 +1,28 @@
+[
+  {
+    "id": "AR51",
+    "group": "北岸综合组",
+    "use": "review",
+    "zones": [
+      "A",
+      "B"
+    ],
+    "seasons": [
+      "spring",
+      "fall"
+    ]
+  },
+  {
+    "id": "AR52",
+    "group": "南岭匿名组",
+    "use": "review",
+    "zones": [
+      "A",
+      "B"
+    ],
+    "seasons": [
+      "spring",
+      "fall"
+    ]
+  }
+]

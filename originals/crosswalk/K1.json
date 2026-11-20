@@ -1,0 +1,18 @@
+{
+  "id": "K1",
+  "references": [
+    [
+      "A",
+      "spring",
+      "BX-7"
+    ],
+    [
+      "A",
+      "fall",
+      "AB-5"
+    ]
+  ],
+  "field_scope": [
+    "anonymous_pair"
+  ]
+}

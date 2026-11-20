@@ -1,0 +1,77 @@
+[
+  {
+    "id": "G1",
+    "group": "北岸综合组",
+    "use": "review",
+    "zone": "A",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "capabilities": [
+      "observation",
+      "coordinate",
+      "crosswalk"
+    ],
+    "round": 1
+  },
+  {
+    "id": "G2",
+    "group": "南岭匿名组",
+    "use": "review",
+    "zone": "A",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "capabilities": [
+      "observation",
+      "crosswalk"
+    ],
+    "round": 1
+  },
+  {
+    "id": "G3",
+    "group": "北岸综合组",
+    "use": "review",
+    "zone": "B",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "capabilities": [
+      "observation",
+      "coordinate",
+      "crosswalk"
+    ],
+    "round": 1
+  },
+  {
+    "id": "G4",
+    "group": "北岸综合组",
+    "use": "review",
+    "zone": "A",
+    "seasons": [
+      "fall"
+    ],
+    "capabilities": [
+      "observation",
+      "crosswalk"
+    ],
+    "round": 2,
+    "supersedes": "G1"
+  },
+  {
+    "id": "G5",
+    "group": "南岭匿名组",
+    "use": "review",
+    "zone": "B",
+    "seasons": [
+      "fall"
+    ],
+    "capabilities": [
+      "observation"
+    ],
+    "round": 1
+  }
+]
