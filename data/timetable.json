@@ -110,6 +110,11 @@
       "file": "SP26.json",
       "from": 1,
       "until": 9
+    },
+    "O26-1R": {
+      "file": "O26-1R.json",
+      "from": 5,
+      "until": 9
     }
   },
   "archives": {
@@ -120,6 +125,10 @@
     "NF26": {
       "file": "NF26.zip",
       "known": 4
+    },
+    "NF26R": {
+      "file": "NF26R.zip",
+      "known": 5
     },
     "SF19": {
       "file": "SF19.zip",
@@ -499,6 +508,128 @@
       "archive": "/archive/NF26"
     },
     {
+      "station": "north",
+      "season": "2026",
+      "edition": "NF26R",
+      "known": 5,
+      "manifest": [
+        {
+          "id": "V-N26-1",
+          "kind": "visit",
+          "visit": "N26-1",
+          "sha256": "3990001c1ab403c5df26ecf09fb7350ada52b409d59d46fd43492e69cb7ee042",
+          "member": "V-N26-1.json",
+          "href": "/object/V-N26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-1",
+          "kind": "observation",
+          "visit": "N26-1",
+          "sha256": "7dcdf853874dbe5f9f7ee2ca5d6815b57f825d6c35b2ad6a5a0fbc41e27661b8",
+          "member": "O26-1.json",
+          "href": "/object/O26-1",
+          "introduced": 1,
+          "state": "withdrawn"
+        },
+        {
+          "id": "P26-1",
+          "kind": "presence",
+          "visit": "N26-1",
+          "sha256": "8fdc5cd2e0718a0d7f8e9462bfdcbf8c6e6800e4247916d5436e20be3cb421c4",
+          "member": "P26-1.json",
+          "href": "/object/P26-1",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-2",
+          "kind": "visit",
+          "visit": "N26-2",
+          "sha256": "4de3809f0c8360b6e3e7d126cf0886087165686db5828768f07c5b44398aa58a",
+          "member": "V-N26-2.json",
+          "href": "/object/V-N26-2",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-2",
+          "kind": "observation",
+          "visit": "N26-2",
+          "sha256": "63e5ae6a8027e8134482f56afa7075ccc2d2c388f7517cac8374e8ac342f6386",
+          "member": "O26-2.json",
+          "href": "/object/O26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-2",
+          "kind": "presence",
+          "visit": "N26-2",
+          "sha256": "c504c3c5d529b46d9bf26e5bcea42fdc4c4186f142afb7236e1b02a28915143a",
+          "member": "P26-2.json",
+          "href": "/object/P26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-3",
+          "kind": "visit",
+          "visit": "N26-3",
+          "sha256": "09c560957093a1400c5ec380abee0bd466a521b8b2c030253dd160c718bc2662",
+          "member": "V-N26-3.json",
+          "href": "/object/V-N26-3",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-4",
+          "kind": "visit",
+          "visit": "N26-4",
+          "sha256": "5686c598df498d7c95985f6bce6f105fd3a6e75a676639857c66df4cbee23972",
+          "member": "V-N26-4.json",
+          "href": "/object/V-N26-4",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-4",
+          "kind": "presence",
+          "visit": "N26-4",
+          "sha256": "cc61f589427343d2fa139c60081fc33ca4664e92ffe8dc6e7da8e7ed5b31baeb",
+          "member": "P26-4.json",
+          "href": "/object/P26-4",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "O26-4",
+          "kind": "observation",
+          "visit": "N26-4",
+          "sha256": "d6cdd75a7d1abdfcee8d81999661ba9fd324295cbb68c75851eb1c1c48b7b36b",
+          "member": "O26-4.json",
+          "href": "/object/O26-4",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "O26-1R",
+          "kind": "observation",
+          "visit": "N26-1",
+          "sha256": "7dcdf853874dbe5f9f7ee2ca5d6815b57f825d6c35b2ad6a5a0fbc41e27661b8",
+          "member": "O26-1R.json",
+          "href": "/object/O26-1R",
+          "introduced": 5,
+          "state": "declared",
+          "replaces": "O26-1"
+        }
+      ],
+      "state": "sealed",
+      "missing": [],
+      "archive": "/archive/NF26R"
+    },
+    {
       "station": "south",
       "season": "2019",
       "edition": "SF19",
@@ -650,6 +781,23 @@
       "state": "review"
     },
     {
+      "known": 5,
+      "id": "R2b",
+      "supersedes": "R2a",
+      "unit": "U-East",
+      "previous": "N-08",
+      "target": "N-08-E",
+      "sections": [
+        "NE"
+      ],
+      "method": "line",
+      "state": "comparable",
+      "requires": [
+        "O26-1R",
+        "P26-1"
+      ]
+    },
+    {
       "known": 1,
       "id": "R4",
       "unit": "U-Other",
@@ -701,6 +849,7 @@
     }
   ],
   "return_missing": {
-    "U-South": "SP26"
+    "U-South": "SP26",
+    "U-East": "O26-1R"
   }
 }
