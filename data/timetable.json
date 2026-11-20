@@ -1,0 +1,706 @@
+{
+  "allowance": 1,
+  "objects": {
+    "V-N19-1": {
+      "file": "V-N19-1.json",
+      "from": 0,
+      "until": 8
+    },
+    "O19-1": {
+      "file": "O19-1.json",
+      "from": 0,
+      "until": 0
+    },
+    "P19-1": {
+      "file": "P19-1.json",
+      "from": 0,
+      "until": 0
+    },
+    "V-N19-2": {
+      "file": "V-N19-2.json",
+      "from": 0,
+      "until": 0
+    },
+    "O19-2": {
+      "file": "O19-2.json",
+      "from": 0,
+      "until": 0
+    },
+    "P19-2": {
+      "file": "P19-2.json",
+      "from": 0,
+      "until": 0
+    },
+    "V-N26-1": {
+      "file": "V-N26-1.json",
+      "from": 1,
+      "until": 7
+    },
+    "O26-1": {
+      "file": "O26-1.json",
+      "from": 1,
+      "until": 3
+    },
+    "P26-1": {
+      "file": "P26-1.json",
+      "from": 3,
+      "until": 8
+    },
+    "V-N26-2": {
+      "file": "V-N26-2.json",
+      "from": 1,
+      "until": 7
+    },
+    "O26-2": {
+      "file": "O26-2.json",
+      "from": 2,
+      "until": 7
+    },
+    "P26-2": {
+      "file": "P26-2.json",
+      "from": 2,
+      "until": 7
+    },
+    "V-N26-3": {
+      "file": "V-N26-3.json",
+      "from": 2,
+      "until": 7
+    },
+    "V-N26-4": {
+      "file": "V-N26-4.json",
+      "from": 2,
+      "until": 8
+    },
+    "P26-4": {
+      "file": "P26-4.json",
+      "from": 3,
+      "until": 8
+    },
+    "O26-4": {
+      "file": "O26-4.json",
+      "from": 2,
+      "until": 8
+    },
+    "V-S19-1": {
+      "file": "V-S19-1.json",
+      "from": 0,
+      "until": 0
+    },
+    "SO19": {
+      "file": "SO19.json",
+      "from": 0,
+      "until": 0
+    },
+    "SP19": {
+      "file": "SP19.json",
+      "from": 0,
+      "until": 0
+    },
+    "V-S26-1": {
+      "file": "V-S26-1.json",
+      "from": 1,
+      "until": 9
+    },
+    "SO26": {
+      "file": "SO26.json",
+      "from": 1,
+      "until": 9
+    },
+    "SP26": {
+      "file": "SP26.json",
+      "from": 1,
+      "until": 9
+    }
+  },
+  "archives": {
+    "NF19": {
+      "file": "NF19.zip",
+      "known": 0
+    },
+    "NF26": {
+      "file": "NF26.zip",
+      "known": 4
+    },
+    "SF19": {
+      "file": "SF19.zip",
+      "known": 0
+    },
+    "SF26": {
+      "file": "SF26.zip",
+      "known": 1
+    }
+  },
+  "catalog": [
+    {
+      "station": "north",
+      "season": "2019",
+      "edition": "NF19",
+      "known": 0,
+      "manifest": [
+        {
+          "id": "V-N19-1",
+          "kind": "visit",
+          "visit": "N19-1",
+          "sha256": "542b47549c784e44e259c7c9eb76777bd286417fecba3dda27269b2986e60f28",
+          "member": "V-N19-1.json",
+          "href": "/object/V-N19-1",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "O19-1",
+          "kind": "observation",
+          "visit": "N19-1",
+          "sha256": "0176629f26a6482da09d7374f48a21d149a9d6bfca88eace415f30db2917c75d",
+          "member": "O19-1.json",
+          "href": "/object/O19-1",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "P19-1",
+          "kind": "presence",
+          "visit": "N19-1",
+          "sha256": "dc479ab05ce8d47d720eeede768dbd2be2e716dacb4bbb73586a43f1090ef368",
+          "member": "P19-1.json",
+          "href": "/object/P19-1",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "V-N19-2",
+          "kind": "visit",
+          "visit": "N19-2",
+          "sha256": "52366e4180a5b2a16798a289afd7d2666050bb21ea2f166a61a516609106fd0f",
+          "member": "V-N19-2.json",
+          "href": "/object/V-N19-2",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "O19-2",
+          "kind": "observation",
+          "visit": "N19-2",
+          "sha256": "4e88b8a9fca36956c56d5194e9f6ae0128b337ae3eb74a768c7dfb572a186d49",
+          "member": "O19-2.json",
+          "href": "/object/O19-2",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "P19-2",
+          "kind": "presence",
+          "visit": "N19-2",
+          "sha256": "d41ae67a0d6611b787390eb0d1a88e2896102d86173631e65456a309aadfe9fd",
+          "member": "P19-2.json",
+          "href": "/object/P19-2",
+          "introduced": 0,
+          "state": "declared"
+        }
+      ],
+      "state": "sealed",
+      "missing": [],
+      "archive": "/archive/NF19"
+    },
+    {
+      "station": "north",
+      "season": "2026",
+      "edition": "NU26-a",
+      "known": 1,
+      "manifest": [
+        {
+          "id": "V-N26-1",
+          "kind": "visit",
+          "visit": "N26-1",
+          "sha256": "3990001c1ab403c5df26ecf09fb7350ada52b409d59d46fd43492e69cb7ee042",
+          "member": "V-N26-1.json",
+          "href": "/object/V-N26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-1",
+          "kind": "observation",
+          "visit": "N26-1",
+          "sha256": "7dcdf853874dbe5f9f7ee2ca5d6815b57f825d6c35b2ad6a5a0fbc41e27661b8",
+          "member": "O26-1.json",
+          "href": "/object/O26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "P26-1",
+          "kind": "presence",
+          "visit": "N26-1",
+          "sha256": "8fdc5cd2e0718a0d7f8e9462bfdcbf8c6e6800e4247916d5436e20be3cb421c4",
+          "member": "P26-1.json",
+          "href": "/object/P26-1",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-2",
+          "kind": "visit",
+          "visit": "N26-2",
+          "sha256": "4de3809f0c8360b6e3e7d126cf0886087165686db5828768f07c5b44398aa58a",
+          "member": "V-N26-2.json",
+          "href": "/object/V-N26-2",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-2",
+          "kind": "observation",
+          "visit": "N26-2",
+          "sha256": "63e5ae6a8027e8134482f56afa7075ccc2d2c388f7517cac8374e8ac342f6386",
+          "member": "O26-2.json",
+          "href": "/object/O26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-2",
+          "kind": "presence",
+          "visit": "N26-2",
+          "sha256": "c504c3c5d529b46d9bf26e5bcea42fdc4c4186f142afb7236e1b02a28915143a",
+          "member": "P26-2.json",
+          "href": "/object/P26-2",
+          "introduced": 2,
+          "state": "declared"
+        }
+      ],
+      "state": "open",
+      "missing": [
+        "N26-3",
+        "N26-4"
+      ],
+      "archive": null
+    },
+    {
+      "station": "north",
+      "season": "2026",
+      "edition": "NU26-b",
+      "known": 2,
+      "manifest": [
+        {
+          "id": "V-N26-1",
+          "kind": "visit",
+          "visit": "N26-1",
+          "sha256": "3990001c1ab403c5df26ecf09fb7350ada52b409d59d46fd43492e69cb7ee042",
+          "member": "V-N26-1.json",
+          "href": "/object/V-N26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-1",
+          "kind": "observation",
+          "visit": "N26-1",
+          "sha256": "7dcdf853874dbe5f9f7ee2ca5d6815b57f825d6c35b2ad6a5a0fbc41e27661b8",
+          "member": "O26-1.json",
+          "href": "/object/O26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "P26-1",
+          "kind": "presence",
+          "visit": "N26-1",
+          "sha256": "8fdc5cd2e0718a0d7f8e9462bfdcbf8c6e6800e4247916d5436e20be3cb421c4",
+          "member": "P26-1.json",
+          "href": "/object/P26-1",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-2",
+          "kind": "visit",
+          "visit": "N26-2",
+          "sha256": "4de3809f0c8360b6e3e7d126cf0886087165686db5828768f07c5b44398aa58a",
+          "member": "V-N26-2.json",
+          "href": "/object/V-N26-2",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-2",
+          "kind": "observation",
+          "visit": "N26-2",
+          "sha256": "63e5ae6a8027e8134482f56afa7075ccc2d2c388f7517cac8374e8ac342f6386",
+          "member": "O26-2.json",
+          "href": "/object/O26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-2",
+          "kind": "presence",
+          "visit": "N26-2",
+          "sha256": "c504c3c5d529b46d9bf26e5bcea42fdc4c4186f142afb7236e1b02a28915143a",
+          "member": "P26-2.json",
+          "href": "/object/P26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-3",
+          "kind": "visit",
+          "visit": "N26-3",
+          "sha256": "09c560957093a1400c5ec380abee0bd466a521b8b2c030253dd160c718bc2662",
+          "member": "V-N26-3.json",
+          "href": "/object/V-N26-3",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-4",
+          "kind": "visit",
+          "visit": "N26-4",
+          "sha256": "5686c598df498d7c95985f6bce6f105fd3a6e75a676639857c66df4cbee23972",
+          "member": "V-N26-4.json",
+          "href": "/object/V-N26-4",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-4",
+          "kind": "presence",
+          "visit": "N26-4",
+          "sha256": "cc61f589427343d2fa139c60081fc33ca4664e92ffe8dc6e7da8e7ed5b31baeb",
+          "member": "P26-4.json",
+          "href": "/object/P26-4",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "O26-4",
+          "kind": "observation",
+          "visit": "N26-4",
+          "sha256": "d6cdd75a7d1abdfcee8d81999661ba9fd324295cbb68c75851eb1c1c48b7b36b",
+          "member": "O26-4.json",
+          "href": "/object/O26-4",
+          "introduced": 2,
+          "state": "declared"
+        }
+      ],
+      "state": "open",
+      "missing": [],
+      "archive": null
+    },
+    {
+      "station": "north",
+      "season": "2026",
+      "edition": "NF26",
+      "known": 4,
+      "manifest": [
+        {
+          "id": "V-N26-1",
+          "kind": "visit",
+          "visit": "N26-1",
+          "sha256": "3990001c1ab403c5df26ecf09fb7350ada52b409d59d46fd43492e69cb7ee042",
+          "member": "V-N26-1.json",
+          "href": "/object/V-N26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-1",
+          "kind": "observation",
+          "visit": "N26-1",
+          "sha256": "7dcdf853874dbe5f9f7ee2ca5d6815b57f825d6c35b2ad6a5a0fbc41e27661b8",
+          "member": "O26-1.json",
+          "href": "/object/O26-1",
+          "introduced": 1,
+          "state": "withdrawn"
+        },
+        {
+          "id": "P26-1",
+          "kind": "presence",
+          "visit": "N26-1",
+          "sha256": "8fdc5cd2e0718a0d7f8e9462bfdcbf8c6e6800e4247916d5436e20be3cb421c4",
+          "member": "P26-1.json",
+          "href": "/object/P26-1",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-2",
+          "kind": "visit",
+          "visit": "N26-2",
+          "sha256": "4de3809f0c8360b6e3e7d126cf0886087165686db5828768f07c5b44398aa58a",
+          "member": "V-N26-2.json",
+          "href": "/object/V-N26-2",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "O26-2",
+          "kind": "observation",
+          "visit": "N26-2",
+          "sha256": "63e5ae6a8027e8134482f56afa7075ccc2d2c388f7517cac8374e8ac342f6386",
+          "member": "O26-2.json",
+          "href": "/object/O26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-2",
+          "kind": "presence",
+          "visit": "N26-2",
+          "sha256": "c504c3c5d529b46d9bf26e5bcea42fdc4c4186f142afb7236e1b02a28915143a",
+          "member": "P26-2.json",
+          "href": "/object/P26-2",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-3",
+          "kind": "visit",
+          "visit": "N26-3",
+          "sha256": "09c560957093a1400c5ec380abee0bd466a521b8b2c030253dd160c718bc2662",
+          "member": "V-N26-3.json",
+          "href": "/object/V-N26-3",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "V-N26-4",
+          "kind": "visit",
+          "visit": "N26-4",
+          "sha256": "5686c598df498d7c95985f6bce6f105fd3a6e75a676639857c66df4cbee23972",
+          "member": "V-N26-4.json",
+          "href": "/object/V-N26-4",
+          "introduced": 2,
+          "state": "declared"
+        },
+        {
+          "id": "P26-4",
+          "kind": "presence",
+          "visit": "N26-4",
+          "sha256": "cc61f589427343d2fa139c60081fc33ca4664e92ffe8dc6e7da8e7ed5b31baeb",
+          "member": "P26-4.json",
+          "href": "/object/P26-4",
+          "introduced": 3,
+          "state": "declared"
+        },
+        {
+          "id": "O26-4",
+          "kind": "observation",
+          "visit": "N26-4",
+          "sha256": "d6cdd75a7d1abdfcee8d81999661ba9fd324295cbb68c75851eb1c1c48b7b36b",
+          "member": "O26-4.json",
+          "href": "/object/O26-4",
+          "introduced": 2,
+          "state": "declared"
+        }
+      ],
+      "state": "sealed",
+      "missing": [],
+      "archive": "/archive/NF26"
+    },
+    {
+      "station": "south",
+      "season": "2019",
+      "edition": "SF19",
+      "known": 0,
+      "manifest": [
+        {
+          "id": "V-S19-1",
+          "kind": "visit",
+          "visit": "S19-1",
+          "sha256": "1ae11358b6887b1d91fb3413592777e77f5b1db01d4a9b4714009f663e6906e1",
+          "member": "V-S19-1.json",
+          "href": "/object/V-S19-1",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "SO19",
+          "kind": "observation",
+          "visit": "S19-1",
+          "sha256": "fd7c5351794f82c7ef8b56d70eddbffcdf5d7d855bbb3d092ebbd64828849f37",
+          "member": "SO19.json",
+          "href": "/object/SO19",
+          "introduced": 0,
+          "state": "declared"
+        },
+        {
+          "id": "SP19",
+          "kind": "presence",
+          "visit": "S19-1",
+          "sha256": "337c33cc92d91918a35889ba2d4abbac6decbd04ec4d8c95b93f22ecfe2ac4ef",
+          "member": "SP19.json",
+          "href": "/object/SP19",
+          "introduced": 0,
+          "state": "declared"
+        }
+      ],
+      "state": "sealed",
+      "missing": [],
+      "archive": "/archive/SF19"
+    },
+    {
+      "station": "south",
+      "season": "2026",
+      "edition": "SF26",
+      "known": 1,
+      "manifest": [
+        {
+          "id": "V-S26-1",
+          "kind": "visit",
+          "visit": "S26-1",
+          "sha256": "ca19d35ee3cf7f407dffdf6fab3cb4d5da9b6528c6f4400a2aa8ecde86db0429",
+          "member": "V-S26-1.json",
+          "href": "/object/V-S26-1",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "SO26",
+          "kind": "observation",
+          "visit": "S26-1",
+          "sha256": "d007f5d23d580cc2b175e58d628d6be77de3e55ff3afa3de63d1ac1e83878b2a",
+          "member": "SO26.json",
+          "href": "/object/SO26",
+          "introduced": 1,
+          "state": "declared"
+        },
+        {
+          "id": "SP26",
+          "kind": "presence",
+          "visit": "S26-1",
+          "sha256": "862158b219a8f7084509385ed0aaa74c3fcf8a7803d2817323d2ef3a1681fda5",
+          "member": "SP26.json",
+          "href": "/object/SP26",
+          "introduced": 1,
+          "state": "declared"
+        }
+      ],
+      "state": "sealed",
+      "missing": [],
+      "archive": "/archive/SF26"
+    }
+  ],
+  "campaigns": [
+    {
+      "known": 0,
+      "station": "north",
+      "seasons": {
+        "2019": [
+          "N19-1",
+          "N19-2"
+        ],
+        "2026": [
+          "N26-1",
+          "N26-2",
+          "N26-3",
+          "N26-4"
+        ]
+      }
+    },
+    {
+      "known": 0,
+      "station": "south",
+      "seasons": {
+        "2019": [
+          "S19-1"
+        ],
+        "2026": [
+          "S26-1"
+        ]
+      }
+    }
+  ],
+  "cards": [
+    {
+      "known": 1,
+      "id": "R2",
+      "unit": "U-East",
+      "previous": "N-08",
+      "target": "N-08-E",
+      "sections": [
+        "NE"
+      ],
+      "method": "line",
+      "state": "comparable"
+    },
+    {
+      "known": 1,
+      "id": "R3",
+      "unit": "U-West",
+      "previous": "N-08",
+      "target": "N-08-W",
+      "sections": [
+        "NW"
+      ],
+      "method": "line",
+      "state": "context_only"
+    },
+    {
+      "known": 3,
+      "id": "R2a",
+      "supersedes": "R2",
+      "unit": "U-East",
+      "previous": "N-08",
+      "target": "N-08-E",
+      "sections": [
+        "NE"
+      ],
+      "method": "line",
+      "state": "review"
+    },
+    {
+      "known": 1,
+      "id": "R4",
+      "unit": "U-Other",
+      "previous": "N-09",
+      "target": "N-09X",
+      "sections": [
+        "N"
+      ],
+      "method": "line",
+      "state": "comparable"
+    },
+    {
+      "known": 1,
+      "id": "R5",
+      "unit": "U-South",
+      "previous": "S-03",
+      "target": "S-03",
+      "sections": [
+        "S"
+      ],
+      "method": "line",
+      "state": "comparable"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "ER1",
+      "known": 2,
+      "units": [
+        {
+          "unit": "U-East",
+          "state": "accepted",
+          "card": "R2",
+          "materials": [
+            "V-N19-1",
+            "P19-1",
+            "O19-1",
+            "V-N26-2",
+            "P26-2",
+            "O26-2"
+          ]
+        },
+        {
+          "unit": "U-South",
+          "state": "returned",
+          "missing": "SP26"
+        }
+      ]
+    }
+  ],
+  "return_missing": {
+    "U-South": "SP26"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "visit": "N19-1",
+  "plot": "N-08",
+  "team": "山北1",
+  "method": "line",
+  "outcome": "visited",
+  "sections": [
+    "NW",
+    "NE"
+  ]
+}
